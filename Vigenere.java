@@ -83,8 +83,6 @@ public class Vigenere {
         System.out.println("x: " + x);
         System.out.println("KeyWord: " + keyWord);
         System.out.println("Key: " + key);
-        System.out.println();  
-        System.out.println(); 
 
         for(int i = 1; i < 4; i++) {
             System.out.println("Number of times encrypted: " + i);
