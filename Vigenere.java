@@ -85,16 +85,16 @@ public class Vigenere {
         System.out.println("Key: " + key);
 
         for(int i = 1; i < 4; i++) {
-            System.out.println("Number of times encrypted: " + i);
             System.out.println("Ciphertext: " + cipherText);
             System.out.println("After decrypting ciphertext: " + decrypt(cipherText, key));
+            System.out.println("Number of times encrypted/decrypted: " + i);
 
             System.out.println();  
             System.out.println(); 
             if(i == 3)
                 break;
             randomString = randomString();
-            System.out.println("Newly random generated string: " + randomString);
+            System.out.println("New randomly generated string: " + randomString);
             x = randomString + plainText;
             System.out.println("New x: " + x);
             cipherText = encrypt(x, key); 
